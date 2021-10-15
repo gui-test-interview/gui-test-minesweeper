@@ -1,0 +1,13 @@
+**/.cache
+**/.parcel-cache
+**/__pycache__
+
+.vscode
+!.vscode/launch.json
+
+db.sqlite3
+.pyenv
+.env
+node_modules
+
+static/dist

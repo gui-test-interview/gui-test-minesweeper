@@ -1,0 +1,6 @@
+django==3.1.5
+djangorestframework==3.12.2
+djangorestframework-camel-case==1.2.0
+pytest==6.2.1
+pytest-django==4.1.0
+python-dotenv==0.15.0

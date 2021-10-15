@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "python",
+      "request": "launch",
+      "name": "Django",
+      "program": "./manage.py",
+      "args": ["runserver"]
+    },
+    {
+      "name": "Parcel",
+      "request": "launch",
+      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "npm",
+      "skipFiles": ["node_modules/**"],
+      "type": "node",
+      "disableOptimisticBPs": true
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run Django + Parcel",
+      "configurations": ["Django", "Parcel"],
+      "presentation": {
+        "order": 0
+      }
+    }
+  ]
+}
